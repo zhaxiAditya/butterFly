@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+* {
+    font-family: "Space Grotesk", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body {
+    padding: 0px 10%;
+    background-color: #ffffff;
+}
+nav {
+    padding: 30px 0px;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.navbar a {
+    text-decoration: none;
+    color: #000000;
+}
+header {
+    margin: 70px 0px;
+    display: flex;
+    align-items: center;
+}
+header h1 {
+    font-size: 5em;
+}
+header p, header a {
+    font-size: 1.5em;
+    text-decoration: none;
+}
+section {
+    margin-bottom: 100px;
+}
+
+section span i {
+    font-size: 5rem;
+}
+
+.judul {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.judul h1 {
+    font-size: 2.5em;
+    background-color: greenyellow;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.judul p {
+    width: 800px;
+}
+
+.content {
+    padding: 50px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+}
+.card {
+    width: 600px;
+    height: 200px;
+    border-radius: 2rem;
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+    box-shadow: 0px 10px 0px black;
+}
+.card span {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.card h3 {
+    font-size: 2rem;
+}
+.card article {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card img {
+    width: 200px;
+    height: 200px;
+}
+.contener {
+    margin: 70px 0px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F3F3F3;
+    border-radius: 20px;
+    padding: 30px;
+}
+.contener span {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 600px;
+    gap: 20px;
+}
+.contener h3 {
+    font-size: 2em;
+}
+.contener p {
+    font-size: 1.5em;
+}
+.button a {
+    background-color: black;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+img {
+    height: 350px;
+    margin-right: 100px;
+}
+.box {
+    padding: 20px;
+    color: #F3F3F3;
+}
