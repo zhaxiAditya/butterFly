@@ -137,3 +137,18 @@ img {
     padding: 20px;
     color: #F3F3F3;
 }
+.card_box {
+    padding: 0px 30px;
+    background-color: greenyellow;
+    border-radius: 40px;
+    border: 1px solid rgb(51, 51, 51);
+    box-shadow: 1px 5px 1px black;
+    margin: 30px 0px;
+}
+
+.card_box.no {
+    background-color: #ffffff;
+}
+.noAktif {
+    display: none;
+}
